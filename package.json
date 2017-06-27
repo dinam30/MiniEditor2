@@ -1,20 +1,19 @@
 {
   "name": "minieditor2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mini Editor project",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "fs": "^0.0.1-security",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dinam30/MiniEditor2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dinam30/MiniEditor2/issues"
-  },
-  "homepage": "https://github.com/dinam30/MiniEditor2#readme"
+  "author": "Dina M",
+  "license": "ISC"
 }
